@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Poppins', sans-serif; */
+/* heading section  */
+html {
+  scroll-behavior: smooth;
+}
+.title h4 {
+  color: #aaadb6;
+  letter-spacing: 2px;
+}
+.title h2 {
+  font-size: 80px;
+  font-family: "Baloo Bhai 2", cursive;
+  color: #2c3f58;
+}
+
+#header {
+  background-image: url(image/BG.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navbar-brand {
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.navbar-brand .fas {
+  font-size: 30px;
+}
+#header .btn {
+  display: inline-block;
+  background-color: #c9a96a;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+}
+#header .btn:hover {
+  background: #563434;
+}
+#navbarNav ul li a {
+  color: white;
+  font-weight: 500;
+}
+#navbarNav ul li a:hover {
+  color: rgb(89, 236, 101);
+}
+.banner h5 {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.banner h2 {
+  font-weight: 600;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 80px;
+}
+.banner a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.container-fluid {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#header .container-fluid p {
+  color: #bdbfc6;
+}
+/* ABOUT SECTION  */
+#about p {
+  color: #aaadb6;
+  font-size: 18px;
+}
+#about .btn {
+  transform: translate(332px, -60px);
+  background-color: white;
+}
+#about a {
+  text-decoration: none;
+  color: #bdbfc6;
+}
+/* ROOM SECTION  */
+
+#room .card img {
+  height: 300px;
+  transition: 0.5s ease-in-out;
+}
+#room .card-img-overlay {
+  transform: translate(0, 200px);
+  color: white;
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 330;
+}
+#room .card-img-overlay span {
+  font-size: 20px;
+  font-weight: 700;
+}
+#room .card img:hover {
+  transform: scale(1.05);
+}
+/* COUNTER  */
+#counting h3 {
+  color: #6d7a8c;
+  font-weight: 400;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 40px;
+}
+#counting h6 {
+  color: #aaadb6;
+  letter-spacing: 2px;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 20px;
+}
+#counting h1 {
+  color: #2c3f58;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+}
+/* TESTOMONIAL SECTION  */
+#testomonial {
+  height: 900px;
+  padding: 30px;
+  padding-bottom: 40px;
+}
+#testomonial .test-box {
+  border-radius: 5px;
+  border: #6d7a8c;
+}
+#testomonial .test-box h4 {
+  color: #2c3f58;
+  font-weight: 700;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 25px;
+}
+#testomonial .test-box p {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #6d7a8c;
+}
+#testomonial .media {
+  font-family: "Poppins", sans-serif;
+}
+/* SELECTION  */
+#selection {
+  margin-top: -160px;
+}
+#selection .container {
+  background-color: #c9a96a;
+  color: white;
+  border-radius: 10px;
+}
+#selection h1 {
+  font-family: "Baloo Bhai 2", cursive;
+  font-weight: 500;
+  font-size: 50px;
+}
+#selection p {
+  font-family: "Poppins", sans-serif;
+}
+#selection .btn {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 8px 30px;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+}
+#selection .btn:hover {
+  background-color: #563434;
+  color: white;
+}
+#footer {
+  margin-top: 30px;
+}
+#footer:hover {
+  color: purple;
+}
+#footer .footer-icon .fab {
+  font-size: 29px;
+  margin: 0 20px 0 20px;
+}
